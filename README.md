@@ -1,6 +1,6 @@
 # DC34 TicTacToe
 
-A Flipper Zero external app that plays TicTacToe against a DC34 JavaCard badge over NFC (ISO14443-4A / APDU). The game itself is hosted on https://dc34.rfid.wtf
+A Flipper Zero external app that plays TicTacToe against a DC34 Passport over NFC (ISO14443-4A / APDU). Info on the games on the passport can be found at https://dc34.rfid.wtf/games
 
 ## Building
 
