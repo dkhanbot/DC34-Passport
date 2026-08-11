@@ -2,6 +2,7 @@
 
 Flipper Zero external apps that play games against a DC34 Passport over NFC (ISO14443-4A / APDU). Info on the games on the passport can be found at https://dc34.rfid.wtf/games
 
+Special thank you to @bettse for the passport card, the amazingly fun ctf and the suggestion to make the flipper app!
 ## TicTacToe
 
 Play TicTacToe against the badge — you play X, the card plays O. Source lives in [tictactoe/](tictactoe/).
