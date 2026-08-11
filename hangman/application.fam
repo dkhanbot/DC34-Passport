@@ -1,0 +1,14 @@
+App(
+    appid="dc34_hangman",
+    name="DC34 Hangman",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="dc34_hangman_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_description="Play Hangman against a DC34 JavaCard badge over NFC",
+    fap_version="1.0",
+    fap_icon="images/dc34_hangman_10px.png",
+    fap_category="NFC",
+    sources=["dc34_hangman_app.c", "dc34_hangman_protocol.c"],
+)

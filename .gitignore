@@ -1,4 +1,5 @@
 dist/*
+hangman/dist/*
 .vscode
 .clang-format
 .clangd
