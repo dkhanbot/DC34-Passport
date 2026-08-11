@@ -4,20 +4,22 @@ Flipper Zero external apps that play games against a DC34 Passport over NFC (ISO
 
 ## TicTacToe
 
-Play TicTacToe against the badge — you play X, the card plays O. Source lives at the repo root.
+Play TicTacToe against the badge — you play X, the card plays O. Source lives in [tictactoe/](tictactoe/).
 
 ### Building
 
 Requires [ufbt](https://github.com/flipperdevices/flipperzero-ufbt):
 
 ```
-ufbt
+cd tictactoe
+UFBT_APP_DIR="$(pwd)" ufbt
 ```
 
 ### Running on a connected Flipper
 
 ```
-ufbt launch
+cd tictactoe
+UFBT_APP_DIR="$(pwd)" ufbt launch
 ```
 
 ### Tests
@@ -25,7 +27,7 @@ ufbt launch
 The protocol codec (`dc34_tictactoe_protocol.c`) has a standalone host-side unit test with no Flipper SDK dependency:
 
 ```
-gcc -Wall -Wextra -o /tmp/dc34_test tests/dc34_tictactoe_protocol_test.c dc34_tictactoe_protocol.c
+gcc -Wall -Wextra -o /tmp/dc34_test tictactoe/tests/dc34_tictactoe_protocol_test.c tictactoe/dc34_tictactoe_protocol.c
 /tmp/dc34_test
 ```
 
