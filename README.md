@@ -1,4 +1,4 @@
-# DC34 Games
+# DC34 Passport Games
 
 Flipper Zero external apps that play games against a DC34 Passport over NFC (ISO14443-4A / APDU). Info on the games on the passport can be found at https://dc34.rfid.wtf/games
 
